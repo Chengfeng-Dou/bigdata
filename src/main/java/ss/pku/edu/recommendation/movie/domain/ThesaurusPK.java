@@ -4,7 +4,7 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 @Embeddable
-public class IndexPk implements Serializable {
-    public String keyWord;
-    public String movieName;
+public class ThesaurusPK implements Serializable {
+    public String synonym;
+    public String keyword;
 }
